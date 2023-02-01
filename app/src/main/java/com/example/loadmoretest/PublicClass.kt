@@ -6,6 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 
 class PublicClass(context: Context?) {
     fun printSomething(activity: AppCompatActivity) {
-        Toast.makeText(activity.applicationContext, "Hello from example", Toast.LENGTH_SHORT).show()
+        Toast.makeText(activity.applicationContext, "Hello from example!", Toast.LENGTH_SHORT).show()
     }
 }
